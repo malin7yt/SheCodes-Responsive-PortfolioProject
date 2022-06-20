@@ -1,25 +1,55 @@
-body {
-    background-color: magenta;
+:root {
+    --branding-color: #c8c6b1;
+    --secondary-color: #737955;
+    --primary-font: 'Poppins', sans-serif;
+    --heading-font: 'Yeseva One', cursive;
+}
 
+body {
+    background-color: white;
+    font-family: var(--primary-font);
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--heading-font);
     font-weight: medium;
-    color: white;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0px;
     font-size: 96px;
+    color: white;
 }
 
-h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    color: green;
+.hero h2 {
+    font-family: var(--heading-font);
+    font-weight: normal;
+    color: var(--secondary-color);
     text-align: center;
+    font-size: 24px;
 }
 
-h3 {
-    font-size: 75px;
+.hero {
+    background-color: var(--branding-color);
+    padding: 160px 20px;
+    text-align: center;
+
+}
+
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+}
+
+.btn {
+    margin: auto;
+    display: inline-block;
+}
+
+.btn-branding {
+border-radius: 5px;
+    background-color: #b2393e;
+    color: white;
+    padding: 15px 20px;
     text-align: center;
 }
