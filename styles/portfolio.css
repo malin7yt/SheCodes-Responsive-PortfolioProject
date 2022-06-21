@@ -19,6 +19,17 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-size: 64px;
+    text-align: start;
+}
+
+p {
+    font-size: 16px;
+    text-align: start;
+    line-height: 1.7;
+}
+
 .hero h2 {
     font-family: var(--heading-font);
     font-weight: normal;
@@ -39,6 +50,7 @@ h1 {
     font-weight: bold;
     margin: 0;
     color: #272142;
+    text-align: center;
 }
 
 .btn {
@@ -47,9 +59,41 @@ h1 {
 }
 
 .btn-branding {
-border-radius: 5px;
+    border-radius: 5px;
     background-color: #b2393e;
     color: white;
     padding: 15px 20px;
     text-align: center;
+}
+
+.btn-branding-outline {
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.project-description {
+    padding: 0px 30px;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 44px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    .pb-5 {
+        font-size: 22px;
+    }
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
 }
