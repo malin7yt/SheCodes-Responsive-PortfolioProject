@@ -52,6 +52,11 @@ p {
 
 }
 
+.hero-heading {
+    text-align: center;
+    color: white;
+}
+
 .hero p {
     font-size: 36px;
     font-weight: bold;
