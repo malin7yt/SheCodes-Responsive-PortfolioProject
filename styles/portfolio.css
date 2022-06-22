@@ -124,6 +124,42 @@ margin-bottom: 20px;
     line-height: 1;
 }
 
+.logo {
+    max-height: 120px;
+}
+
+.logo-small {
+    max-height: 40px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+    color: var(--secondary-color);
+}
+
+nav a:hover, nav li.active a {
+    color: #b2393e;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
 @media (max-width: 900px) {
     h1 {
         font-size: 60px;
@@ -149,5 +185,9 @@ margin-bottom: 20px;
     }
     .content h1 {
         text-align: center;
+    }
+
+    nav a {
+        font-size: 14px;
     }
 }
