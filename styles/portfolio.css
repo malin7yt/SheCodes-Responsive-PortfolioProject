@@ -10,19 +10,15 @@ body {
     font-family: var(--primary-font);
 }
 
-h1 {
-    font-family: var(--heading-font);
-    font-weight: medium;
-    text-align: center;
-    margin-top: 0px;
-    font-size: 96px;
-    color: white;
-}
-
 h2 {
     font-size: 64px;
     text-align: start;
     font-family: var(--primary-font);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    text-align: start;
 }
 
 p {
@@ -30,6 +26,15 @@ p {
     text-align: start;
     line-height: 1.7;
     font-family: var(--primary-font);
+}
+
+.hero-heading h1 {
+    font-family: var(--heading-font);
+    font-weight: medium;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 96px;
+    color: white;
 }
 
 .hero h2 {
@@ -80,25 +85,38 @@ p {
     padding: 0px 30px;
 }
 
-.about-section h2 {
+.content-container h2 {
     font-size: 20px;
     font-family: var(--primary-font);
+
 }
 
-.about-section-content {
+.content {
     margin: 30px;
     padding: 160px 20px;
 }
+
 
 .mj-photo {
     border-radius: 10px;
 }
 
-.about-section-content h1 {
+.content h1 {
 color: black;
 text-align: start;
-font-size: 55px;
+font-size: 45px;
 margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 14px;
+    font-family: var(--primary-font);
+}
+
+.content h3 {
+    font-size: 24px;
+    font-family: var(--primary-font);
+    line-height: 1;
 }
 
 @media (max-width: 900px) {
@@ -120,11 +138,11 @@ margin-bottom: 20px;
         padding: 0;
         text-align: center;
     }
-    .about-section {
+    .content-container {
         text-align: center;
         padding: 0;
     }
-    .about-section-content h1 {
+    .content h1 {
         text-align: center;
     }
 }
