@@ -21,6 +21,11 @@ h1 {
     text-align: start;
 }
 
+h4 {
+    font-size: 48px;
+    font-family: var(--heading-font);
+}
+
 p {
     font-size: 16px;
     text-align: start;
@@ -160,6 +165,44 @@ nav ul {
     margin: 0;
 }
 
+footer .contact-box {
+    background-color: var(--branding-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+    font-family: var(--primary-font);
+}
+
+footer .email-link {
+text-decoration: none;
+color: black;
+font-size: 24px;
+margin-top: 60px;
+}
+
+footer .email-link:hover {
+    color: #b2393e;
+}
+
+footer .social-link a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    background-color: var(--branding-color);
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+    }
+
+
+footer .social-link a:hover {
+    color: #b2393e;
+}
+
 @media (max-width: 900px) {
     h1 {
         font-size: 60px;
@@ -189,5 +232,13 @@ nav ul {
 
     nav a {
         font-size: 14px;
+    }
+
+    footer .contact-box {
+        padding: 30px;
+    }
+
+    h4 {
+        font-size: 18px;
     }
 }
