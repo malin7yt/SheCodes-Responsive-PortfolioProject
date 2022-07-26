@@ -163,7 +163,7 @@ nav li {
     margin-left: 10px;
 }
 
-.shecodes-link {
+.shecodes-link, .certificate {
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -175,7 +175,7 @@ nav li {
     font-weight: bold;
 }
 
-.shecodes-link:hover {
+.shecodes-link:hover, .certificate:hover {
     color: var(--secondary-color)
 }
 
